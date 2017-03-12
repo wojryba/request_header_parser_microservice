@@ -5,6 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.15.2",
+    "locale": "^0.1.0",
     "ua-parser-js": "^0.7.12",
     "user-agent-parse": "^0.1.8"
   },
