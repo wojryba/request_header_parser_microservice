@@ -1,26 +1,21 @@
 {
-  "name": "request_header_parser_microservice",
+  "name": "header_parser",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wojryba/request_header_parser_microservice.git"
-  },
-  "author": "Wojciech Ryba",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wojryba/request_header_parser_microservice/issues"
-  },
-  "homepage": "https://github.com/wojryba/request_header_parser_microservice#readme",
   "dependencies": {
     "express": "^4.15.2",
     "ua-parser-js": "^0.7.12",
+    "user-agent-parse": "^0.1.8"
   },
   "engines": {
     "node": "6.10.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
 }
